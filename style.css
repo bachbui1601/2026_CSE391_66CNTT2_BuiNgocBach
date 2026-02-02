@@ -6,6 +6,8 @@ table,td,th{
     border: 1.5px solid black;
     text-align: center;
     padding: 6px;
-
+}
+.h3{
+    border-bottom: 1.5px;
 }
 
