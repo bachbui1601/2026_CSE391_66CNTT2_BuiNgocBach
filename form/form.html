@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <div class="container">
+
+            <h3>Basic Info</h3>
+
+            <div class="row">
+                <label>Employee ID</label>
+                <input type="text" name="employeeId" value="9" readonly>
+            </div>
+
+            <div class="row">
+                <label>Last Name</label>
+                <input type="text" name="lastName" value="Dodsworth">
+            </div>
+
+            <div class="row">
+                <label>First Name</label>
+                <input type="text" name="firstName" value="Anne">
+            </div>
+
+            <div class="row">
+                <label>Gender</label>
+                <div class="inline">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female" checked> Female</label>
+                    <label><input type="radio" name="gender" value="xxx"> XXX</label>
+                    <label><input type="radio" name="gender" value="zzz"> ZZZ</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Title</label>
+                <input type="text" name="title" value="Sales Representative">
+            </div>
+
+            <div class="row">
+                <label>Suffix</label>
+                <input type="text" name="suffix" value="Ms.">
+            </div>
+
+            <div class="row">
+                <label>BirthDate</label>
+                <input type="datetime-local" name="birthDate">
+            </div>
+
+            <div class="row">
+                <label>HireDate</label>
+                <input type="datetime-local" name="hireDate">
+            </div>
+
+            <div class="row">
+                <label>Reports To</label>
+                <select name="reportsTo">
+                    <option>Buchanan</option>
+                    <option>Fuller</option>
+                </select>
+            </div>
+
+            <h3>Contact Info</h3>
+
+            <div class="row">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="name@example.com">
+            </div>
+
+            <div class="row">
+                <label>Address</label>
+                <input type="text" name="address" value="7 Houndstooth Rd.">
+            </div>
+
+            <div class="row">
+                <label>City</label>
+                <input type="text" name="city" value="London">
+            </div>
+
+            <div class="row">
+                <label>Postal Code</label>
+                <input type="text" name="postalCode" value="WG2 7LT">
+            </div>
+
+            <div class="row">
+                <label>Country</label>
+                <select name="country">
+                    <option>Russian Federation</option>
+                    <option>Viet Nam</option>
+                </select>
+            </div>
+
+            <h3>Optional Info</h3>
+
+            <div class="row">
+                <label>Notes</label>
+                <textarea name="notes">
+Anne has a BA degree in English from St. Lawrence College.
+She is fluent in French and German.
+        </textarea>
+            </div>
+
+            <div class="row">
+                <label>Preferred Shift</label>
+                <div class="inline">
+                    <label><input type="checkbox" value="regular"> Regular</label>
+                    <label><input type="checkbox" value="graveyard" checked> Gravy Yard</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Active?</label>
+                <div class="inline">
+                    <input type="checkbox" name="active" checked>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Are you human?</label>
+                <div>
+                    <strong style="font-family: monospace; letter-spacing: 3px;">
+                        TIDAWO
+                    </strong>
+                    <small style="margin-left:10px; color:#555;">Click to change</small>
+                    <br><br>
+                    <input type="text" name="captcha" placeholder="Enter text above" required>
+                </div>
+            </div>
+
+            <div style="font-size: 12px; margin-top: 10px;">
+                <em>* required</em>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Cancel</button>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
