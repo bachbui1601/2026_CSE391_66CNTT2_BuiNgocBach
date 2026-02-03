@@ -1,0 +1,101 @@
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .container {
+            width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+
+        /* HEADER */
+        .header {
+            background: #222;
+            color: #fff;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .menu a {
+            color: #ddd;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+
+        .menu a:hover {
+            color: #fff;
+        }
+
+        .search-box input {
+            padding: 5px;
+        }
+
+        .search-box button {
+            padding: 5px 10px;
+            background: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* CONTENT */
+        .content {
+            padding: 20px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .btn-add {
+            background: #007bff;
+            color: white;
+            padding: 6px 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f8f8f8;
+            text-align: left;
+            padding: 8px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .btn-edit {
+            background: #f0ad4e;
+            border: none;
+            padding: 4px 8px;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .btn-delete {
+            background: #d9534f;
+            border: none;
+            padding: 4px 8px;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
