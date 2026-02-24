@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 650px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+}
+
+h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.active {
+    align-self: self-start;
+}
+
+label {
+    width: 150px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    flex: 1;
+    padding: 5px;
+}
+
+textarea {
+    height: 90px;
+}
+
+.inline {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.active {
+    align-self: flex-start;
+}
