@@ -1,0 +1,31 @@
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    /* Tạo vùng content */
+    max-width: 900px;
+    margin: auto;
+    height: 500px;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+

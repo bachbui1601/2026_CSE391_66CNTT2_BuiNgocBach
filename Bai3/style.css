@@ -1,0 +1,78 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* SECTION */
+.wireframe {
+    max-width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.wireframe h2 {
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+/* CONTENT FLEX */
+.content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* CARD LEFT */
+.card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.author strong {
+    display: block;
+    font-size: 14px;
+}
+
+.author span {
+    font-size: 12px;
+    color: #888;
+}
+
+/* RIGHT TEXT */
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.text p {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.text .bold {
+    font-weight: bold;
+    color: black;
+}
